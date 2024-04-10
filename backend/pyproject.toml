@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "tf-idf-app"
+version = "0.1.0"
+description = ""
+authors = ["Drytimor <andrey.oveshkov@bk.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.1"
+uvicorn = "^0.29.0"
+pydantic-settings = "^2.2.1"
+python-multipart = "^0.0.7"
+alembic = "^1.12.1"
+pydantic = ">2.0"
+SQLAlchemy = "^2.0.29"
+asyncpg = "^0.29.0"
+ipython = "^8.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
